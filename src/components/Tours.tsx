@@ -39,7 +39,7 @@ const Tours = () => {
   return (
     <section id="tours" className="py-20 px-4 bg-black/20">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-bold text-white text-center mb-12">
+        <h2 className="text-4xl md:text-5xl font-bold text-white text-center mb-12 font-headline">
           Tour Dates
         </h2>
         

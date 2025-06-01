@@ -75,7 +75,7 @@ const Music = () => {
   return (
     <section id="music" className="py-20 px-4">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-bold text-white text-center mb-12 animate-fade-in">
+        <h2 className="text-4xl md:text-5xl font-bold text-white text-center mb-12 animate-fade-in font-headline">
           Latest Music
         </h2>
         
@@ -91,7 +91,7 @@ const Music = () => {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
               </div>
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-white mb-2">{album.title}</h3>
+                <h3 className="text-xl font-bold text-white mb-2 font-handwritten">{album.title}</h3>
                 <p className="text-purple-400 text-sm mb-3">{album.year}</p>
                 <p className="text-gray-300 text-sm mb-4">{album.description}</p>
                 <div className="flex gap-2">

@@ -42,16 +42,16 @@ const About = () => {
         {/* About Section */}
         <div className="grid lg:grid-cols-2 gap-12 items-center mb-20">
           <div className="animate-slide-up">
-            <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 font-playfair">
-              About YB Jarred
+            <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 font-headline">
+              About
             </h2>
-            <p className="text-gray-300 text-lg mb-6 font-inter leading-relaxed">
+            <p className="text-gray-300 text-lg mb-6  leading-relaxed font-body">
               Born from the rhythm of the city and the whispers of the wind, YB Jarred has been crafting melodies that resonate with the human experience for over a decade.
             </p>
-            <p className="text-gray-300 text-lg mb-6 font-inter leading-relaxed">
+            <p className="text-gray-300 text-lg mb-6 font-body leading-relaxed">
               With influences ranging from classic rock to modern electronic, YB Jarred's sound is a unique blend of raw emotion and polished production. Each song tells a story, each album is a journey.
             </p>
-            <p className="text-gray-300 text-lg font-inter leading-relaxed">
+            <p className="text-gray-300 text-lg font-body leading-relaxed">
               When not in the studio, YB Jarred can be found collaborating with other artists, mentoring young musicians, and exploring new sounds that push the boundaries of contemporary music.
             </p>
           </div>
@@ -89,7 +89,7 @@ const About = () => {
 
         {/* Music Videos Section */}
         <div className="animate-fade-in" style={{animationDelay: '0.6s', animationFillMode: 'both'}}>
-          <h3 className="text-3xl md:text-4xl font-bold text-white mb-8 text-center font-playfair">
+          <h3 className="text-3xl md:text-4xl font-bold text-white mb-8 text-center font-headline">
             Latest Music Videos
           </h3>
           <div className="grid md:grid-cols-3 gap-8">
@@ -121,7 +121,7 @@ const About = () => {
                 </div>
                 
                 <div className="mt-4">
-                  <h4 className="text-xl font-semibold text-white mb-2 font-poppins group-hover:text-purple-300 transition-colors">
+                  <h4 className="text-xl font-semibold text-white mb-2 font-handwritten group-hover:text-purple-300 transition-colors">
                     {video.title}
                   </h4>
                   <Button className="bg-purple-600 hover:bg-purple-700 text-white transition-all duration-300 hover:scale-105 font-inter">

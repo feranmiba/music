@@ -22,6 +22,10 @@ export default {
 				'playfair': ['Playfair Display', 'serif'],
 				'inter': ['Inter', 'sans-serif'],
 				'poppins': ['Poppins', 'sans-serif'],
+					headline: ['"Bebas Neue"', 'normal'],
+					body: ['Inter', 'sans-serif'],
+					handwritten: ['"Permanent Marker"', 'cursive'],
+				  
 			},
 			colors: {
 				border: 'hsl(var(--border))',
